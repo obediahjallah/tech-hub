@@ -71,7 +71,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4">
 a
           <a
-            href="objstemclub.hubgmail.com"
+            href="objstemclub.hub@gmail.com"
             className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
             Send Email
