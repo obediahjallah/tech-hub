@@ -21,7 +21,7 @@ export default function Home() {
         </p>
 
         <a
-          href="https://forms.gle/zUiFPqoWtE9sn7tu5https://docs.google.com/forms/d/e/1FAIpQLScJO4UiV2rZNnCI7QseZ0cYqBuyLpXmV_cJNAP3tPm2vKjLYg/viewform?usp=sharing&ouid=106499351078573468743"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScJO4UiV2rZNnCI7QseZ0cYqBuyLpXmV_cJNAP3tPm2vKjLYg/viewform?usp=header"
           className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
         >
           Enroll Now
