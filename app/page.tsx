@@ -21,7 +21,7 @@ export default function Home() {
         </p>
 
         <a
-          href="#contact"
+          href="https://forms.gle/zUiFPqoWtE9sn7tu5https://docs.google.com/forms/d/e/1FAIpQLScJO4UiV2rZNnCI7QseZ0cYqBuyLpXmV_cJNAP3tPm2vKjLYg/viewform?usp=sharing&ouid=106499351078573468743"
           className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
         >
           Enroll Now
@@ -69,9 +69,9 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col items-center gap-4">
-
+a
           <a
-            href="mailto:jallahobediah@gmail.com"
+            href="techhubliberia82@gmail.com"
             className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
             Send Email
