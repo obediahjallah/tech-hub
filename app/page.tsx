@@ -1,4 +1,4 @@
-export default function Home() {
+ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900 font-sans">
 
@@ -22,6 +22,7 @@ export default function Home() {
 
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScJO4UiV2rZNnCI7QseZ0cYqBuyLpXmV_cJNAP3tPm2vKjLYg/viewform?usp=header"
+          target="_blank"
           className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
         >
           Enroll Now
@@ -68,18 +69,10 @@ export default function Home() {
           Ready to join Tech Hub Liberia? Contact us today.
         </p>
 
-        <a
-  href="https://wa.me/231775795996"
-  target="_blank"
-  className="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-600 transition z-50"
->
-  💬 Chat
-</a>
-
         <div className="flex flex-col items-center gap-4">
-a
+
           <a
-            href="objstemclub.hub@gmail.com"
+            href="mailto:jallahobediah@gmail.com"
             className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
             Send Email
@@ -99,6 +92,15 @@ a
       <footer className="text-center py-6 border-t text-gray-500">
         © 2026 Tech Hub Liberia
       </footer>
+
+      {/*   WHATSAPP FLOATING BUTTON */}
+      <a
+        href="https://wa.me/231775795996"
+        target="_blank"
+        className="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-xl flex items-center gap-2 hover:bg-green-600 transition z-50"
+      >
+        💬 <span className="hidden md:inline">Chat with us</span>
+      </a>
 
     </main>
   );
